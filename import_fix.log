@@ -1,0 +1,80 @@
+2025-03-18 06:56:45,380 - INFO - Starting import path fixer...
+2025-03-18 06:56:45,381 - INFO - Checking and creating required directories...
+2025-03-18 06:56:45,381 - INFO - Directory exists: models
+2025-03-18 06:56:45,381 - INFO - Directory exists: prediction
+2025-03-18 06:56:45,382 - INFO - Directory exists: prediction/utils
+2025-03-18 06:56:45,382 - INFO - Directory exists: prediction/components
+2025-03-18 06:56:45,382 - INFO - Checking and creating essential files...
+2025-03-18 06:56:45,382 - INFO - File exists and already fixed: prediction/__init__.py
+2025-03-18 06:56:45,383 - INFO - Creating file: prediction/utils/__init__.py
+2025-03-18 06:56:45,390 - INFO - File exists and already fixed: prediction/utils/calibration.py
+2025-03-18 06:56:45,390 - INFO - File exists and already fixed: prediction/utils/diagnostics.py
+2025-03-18 06:56:45,391 - INFO - File exists and already fixed: prediction/utils/validation.py
+2025-03-18 06:56:45,391 - INFO - Creating file: prediction/components/__init__.py
+2025-03-18 06:56:45,392 - INFO - File exists: models/__init__.py
+2025-03-18 06:56:45,393 - INFO - Checking Python path...
+2025-03-18 06:56:48,207 - ERROR - Failed to import models package: attempted relative import with no known parent package
+2025-03-18 06:56:48,208 - INFO - Successfully imported prediction package
+2025-03-18 06:56:48,209 - INFO - Creating path helper...
+2025-03-18 06:56:48,211 - INFO - Import path fixing completed successfully
+2025-03-18 06:56:48,211 - INFO - Finished
+2025-03-18 06:57:29,292 - INFO - Starting import path fixer...
+2025-03-18 06:57:29,293 - INFO - Checking and creating required directories...
+2025-03-18 06:57:29,293 - INFO - Directory exists: models
+2025-03-18 06:57:29,294 - INFO - Directory exists: prediction
+2025-03-18 06:57:29,294 - INFO - Directory exists: prediction/utils
+2025-03-18 06:57:29,294 - INFO - Directory exists: prediction/components
+2025-03-18 06:57:29,295 - INFO - Checking and creating essential files...
+2025-03-18 06:57:29,295 - INFO - File exists and already fixed: prediction/__init__.py
+2025-03-18 06:57:29,295 - INFO - File exists: prediction/utils/__init__.py
+2025-03-18 06:57:29,295 - INFO - File exists and already fixed: prediction/utils/calibration.py
+2025-03-18 06:57:29,295 - INFO - File exists and already fixed: prediction/utils/diagnostics.py
+2025-03-18 06:57:29,296 - INFO - File exists and already fixed: prediction/utils/validation.py
+2025-03-18 06:57:29,296 - INFO - File exists: prediction/components/__init__.py
+2025-03-18 06:57:29,296 - INFO - File exists: models/__init__.py
+2025-03-18 06:57:29,297 - INFO - Checking Python path...
+2025-03-18 06:57:31,786 - ERROR - Failed to import models package: attempted relative import with no known parent package
+2025-03-18 06:57:31,786 - INFO - Successfully imported prediction package
+2025-03-18 06:57:31,787 - INFO - Creating path helper...
+2025-03-18 06:57:31,788 - INFO - Import path fixing completed successfully
+2025-03-18 06:57:31,789 - INFO - Finished
+2025-03-18 07:09:10,448 - INFO - Starting import path fixer...
+2025-03-18 07:09:10,449 - INFO - Checking and creating required directories...
+2025-03-18 07:09:10,449 - INFO - Directory exists: models
+2025-03-18 07:09:10,450 - INFO - Directory exists: prediction
+2025-03-18 07:09:10,450 - INFO - Directory exists: prediction/utils
+2025-03-18 07:09:10,450 - INFO - Directory exists: prediction/components
+2025-03-18 07:09:10,450 - INFO - Checking and creating essential files...
+2025-03-18 07:09:10,450 - INFO - File exists and already fixed: prediction/__init__.py
+2025-03-18 07:09:10,451 - INFO - File exists: prediction/utils/__init__.py
+2025-03-18 07:09:10,451 - INFO - File exists and already fixed: prediction/utils/calibration.py
+2025-03-18 07:09:10,451 - INFO - File exists and already fixed: prediction/utils/diagnostics.py
+2025-03-18 07:09:10,451 - INFO - File exists and already fixed: prediction/utils/validation.py
+2025-03-18 07:09:10,452 - INFO - File exists: prediction/components/__init__.py
+2025-03-18 07:09:10,452 - INFO - File exists: models/__init__.py
+2025-03-18 07:09:10,452 - INFO - Checking Python path...
+2025-03-18 07:09:12,975 - ERROR - Failed to import models package: attempted relative import with no known parent package
+2025-03-18 07:09:12,975 - INFO - Successfully imported prediction package
+2025-03-18 07:09:12,975 - INFO - Creating path helper...
+2025-03-18 07:09:12,977 - INFO - Import path fixing completed successfully
+2025-03-18 07:09:12,980 - INFO - Finished
+2025-03-18 07:12:30,723 - INFO - Starting import path fixer...
+2025-03-18 07:12:30,723 - INFO - Checking and creating required directories...
+2025-03-18 07:12:30,724 - INFO - Directory exists: models
+2025-03-18 07:12:30,724 - INFO - Directory exists: prediction
+2025-03-18 07:12:30,724 - INFO - Directory exists: prediction/utils
+2025-03-18 07:12:30,725 - INFO - Directory exists: prediction/components
+2025-03-18 07:12:30,725 - INFO - Checking and creating essential files...
+2025-03-18 07:12:30,725 - INFO - File exists and already fixed: prediction/__init__.py
+2025-03-18 07:12:30,726 - INFO - File exists: prediction/utils/__init__.py
+2025-03-18 07:12:30,726 - INFO - File exists and already fixed: prediction/utils/calibration.py
+2025-03-18 07:12:30,727 - INFO - File exists and already fixed: prediction/utils/diagnostics.py
+2025-03-18 07:12:30,727 - INFO - File exists and already fixed: prediction/utils/validation.py
+2025-03-18 07:12:30,727 - INFO - File exists: prediction/components/__init__.py
+2025-03-18 07:12:30,728 - INFO - File exists: models/__init__.py
+2025-03-18 07:12:30,728 - INFO - Checking Python path...
+2025-03-18 07:12:33,460 - ERROR - Failed to import models package: attempted relative import with no known parent package
+2025-03-18 07:12:33,461 - INFO - Successfully imported prediction package
+2025-03-18 07:12:33,461 - INFO - Creating path helper...
+2025-03-18 07:12:33,463 - INFO - Import path fixing completed successfully
+2025-03-18 07:12:33,463 - INFO - Finished

@@ -1,0 +1,388 @@
+2025-03-18 11:29:48,151 - prediction.utils.diagnostics - ERROR - Prediction error in stage 'base_prediction': 'NoneType' object has no attribute 'get_active_base_models'
+Traceback: Traceback (most recent call last):
+  File "C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2\prediction\prediction_pipeline.py", line 122, in predict_with_profiling
+    base_predictions = self._collect_base_predictions(normalized_input)
+  File "C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2\prediction\prediction_pipeline.py", line 318, in _collect_base_predictions
+    active_models = self.model_registry.get_active_base_models()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get_active_base_models'
+
+2025-03-18 11:29:48,160 - betting.betting_system - INFO - Recommending bet of 2,000 Rp using fibonacci strategy with unknown pattern modifier: 1.00x
+2025-03-18 11:29:54,134 - betting.betting_system - INFO - Placed bet of 2,000 Rp, Balance before: 18,900.0 Rp, after: 16,900.0 Rp
+2025-03-18 11:29:54,136 - betting.betting_system - INFO - Slow bet decision processing: 5975.20ms
+2025-03-18 11:29:54,136 - betting.betting_system - INFO - Recommending bet of 2,000 Rp using fibonacci strategy with unknown pattern modifier: 1.00x
+2025-03-18 11:30:00,777 - betting.betting_system - INFO - Placed bet of 2,000 Rp, Balance before: 16,900.0 Rp, after: 14,900.0 Rp
+2025-03-18 11:30:00,779 - betting.betting_system - INFO - Slow bet decision processing: 6643.29ms
+2025-03-18 11:30:07,556 - betting.betting_system - INFO - Resolving bet - Amount: 2,000 Rp, Predicted: 1, Actual: 0
+2025-03-18 11:30:28,744 - prediction.utils.diagnostics - ERROR - Prediction error in stage 'base_prediction': 'NoneType' object has no attribute 'get_active_base_models'
+Traceback: Traceback (most recent call last):
+  File "C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2\prediction\prediction_pipeline.py", line 122, in predict_with_profiling
+    base_predictions = self._collect_base_predictions(normalized_input)
+  File "C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2\prediction\prediction_pipeline.py", line 318, in _collect_base_predictions
+    active_models = self.model_registry.get_active_base_models()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get_active_base_models'
+
+2025-03-18 11:30:28,747 - betting.betting_system - INFO - Recommending bet of 2,000 Rp using fibonacci strategy with unknown pattern modifier: 0.95x
+2025-03-18 11:30:31,180 - betting.betting_system - INFO - Placed bet of 2,000 Rp, Balance before: 14,900.0 Rp, after: 12,900.0 Rp
+2025-03-18 11:30:31,180 - betting.betting_system - INFO - Slow bet decision processing: 2433.76ms
+2025-03-18 11:30:31,181 - betting.betting_system - INFO - Recommending bet of 2,000 Rp using fibonacci strategy with unknown pattern modifier: 0.95x
+2025-03-18 11:30:31,640 - betting.betting_system - INFO - Placed bet of 2,000 Rp, Balance before: 12,900.0 Rp, after: 10,900.0 Rp
+2025-03-18 11:30:32,512 - betting.betting_system - INFO - Resolving bet - Amount: 2,000 Rp, Predicted: 0, Actual: 0
+2025-03-18 11:30:40,237 - prediction.utils.diagnostics - ERROR - Prediction error in stage 'base_prediction': 'NoneType' object has no attribute 'get_active_base_models'
+Traceback: Traceback (most recent call last):
+  File "C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2\prediction\prediction_pipeline.py", line 122, in predict_with_profiling
+    base_predictions = self._collect_base_predictions(normalized_input)
+  File "C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2\prediction\prediction_pipeline.py", line 318, in _collect_base_predictions
+    active_models = self.model_registry.get_active_base_models()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get_active_base_models'
+
+2025-03-18 11:30:40,240 - betting.betting_system - INFO - Recommending bet of 2,000 Rp using fibonacci strategy with unknown pattern modifier: 0.95x
+2025-03-18 11:30:42,615 - betting.betting_system - INFO - Placed bet of 2,000 Rp, Balance before: 14,800.0 Rp, after: 12,800.0 Rp
+2025-03-18 11:30:42,616 - betting.betting_system - INFO - Slow bet decision processing: 2375.27ms
+2025-03-18 11:30:42,616 - betting.betting_system - INFO - Recommending bet of 2,000 Rp using fibonacci strategy with unknown pattern modifier: 0.95x
+2025-03-18 11:30:43,425 - betting.betting_system - INFO - Placed bet of 2,000 Rp, Balance before: 12,800.0 Rp, after: 10,800.0 Rp
+2025-03-18 11:30:43,425 - betting.betting_system - INFO - Slow bet decision processing: 809.40ms
+2025-03-18 11:30:44,234 - betting.betting_system - INFO - Resolving bet - Amount: 2,000 Rp, Predicted: 0, Actual: 1
+2025-03-18 11:30:54,266 - prediction.utils.diagnostics - ERROR - Prediction error in stage 'base_prediction': 'NoneType' object has no attribute 'get_active_base_models'
+Traceback: Traceback (most recent call last):
+  File "C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2\prediction\prediction_pipeline.py", line 122, in predict_with_profiling
+    base_predictions = self._collect_base_predictions(normalized_input)
+  File "C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2\prediction\prediction_pipeline.py", line 318, in _collect_base_predictions
+    active_models = self.model_registry.get_active_base_models()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get_active_base_models'
+
+2025-03-18 11:30:54,269 - betting.betting_system - INFO - Recommending bet of 2,000 Rp using fibonacci strategy with unknown pattern modifier: 0.95x
+2025-03-18 11:30:55,116 - betting.betting_system - INFO - Placed bet of 2,000 Rp, Balance before: 10,800.0 Rp, after: 8,800.0 Rp
+2025-03-18 11:30:55,117 - betting.betting_system - INFO - Slow bet decision processing: 848.09ms
+2025-03-18 11:30:55,118 - betting.betting_system - INFO - Recommending bet of 2,000 Rp using fibonacci strategy with unknown pattern modifier: 0.95x
+2025-03-18 11:30:56,134 - betting.betting_system - INFO - Placed bet of 2,000 Rp, Balance before: 8,800.0 Rp, after: 6,800.0 Rp
+2025-03-18 11:30:56,135 - betting.betting_system - INFO - Slow bet decision processing: 1017.00ms
+2025-03-18 11:30:59,507 - betting.betting_system - INFO - Resolving bet - Amount: 2,000 Rp, Predicted: 0, Actual: 0
+2025-03-18 11:31:06,002 - prediction.utils.diagnostics - ERROR - Prediction error in stage 'base_prediction': 'NoneType' object has no attribute 'get_active_base_models'
+Traceback: Traceback (most recent call last):
+  File "C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2\prediction\prediction_pipeline.py", line 122, in predict_with_profiling
+    base_predictions = self._collect_base_predictions(normalized_input)
+  File "C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2\prediction\prediction_pipeline.py", line 318, in _collect_base_predictions
+    active_models = self.model_registry.get_active_base_models()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get_active_base_models'
+
+2025-03-18 11:31:06,005 - betting.betting_system - INFO - Recommending bet of 2,000 Rp using fibonacci strategy with unknown pattern modifier: 0.95x
+2025-03-18 11:31:06,731 - betting.betting_system - INFO - Placed bet of 2,000 Rp, Balance before: 10,700.0 Rp, after: 8,700.0 Rp
+2025-03-18 11:31:06,732 - betting.betting_system - INFO - Slow bet decision processing: 727.64ms
+2025-03-18 11:31:06,733 - betting.betting_system - INFO - Recommending bet of 2,000 Rp using fibonacci strategy with unknown pattern modifier: 0.95x
+2025-03-18 11:31:07,926 - betting.betting_system - INFO - Placed bet of 2,000 Rp, Balance before: 8,700.0 Rp, after: 6,700.0 Rp
+2025-03-18 11:31:07,927 - betting.betting_system - INFO - Slow bet decision processing: 1193.73ms
+2025-03-18 11:31:08,891 - betting.betting_system - INFO - Resolving bet - Amount: 2,000 Rp, Predicted: 0, Actual: 0
+2025-03-18 11:31:09,073 - interface.io_predict - ERROR - Error in prediction cycle: 'NoneType' object has no attribute '__dict__'
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2\interface\io_predict.py", line 953, in main_prediction_loop
+    with StateTransaction(system_manager.model_registry) as transaction:
+         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2\models\model_registry.py", line 139, in __enter__
+    self.original_state = copy.deepcopy(self.state_owner.__dict__)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute '__dict__'. Did you mean: '__dir__'?
+2025-03-18 11:41:48,047 - prediction.utils.diagnostics - ERROR - Prediction error in stage 'base_prediction': 'NoneType' object has no attribute 'get_active_base_models'
+Traceback: Traceback (most recent call last):
+  File "C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2\prediction\prediction_pipeline.py", line 122, in predict_with_profiling
+    base_predictions = self._collect_base_predictions(normalized_input)
+  File "C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2\prediction\prediction_pipeline.py", line 318, in _collect_base_predictions
+    active_models = self.model_registry.get_active_base_models()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get_active_base_models'
+
+2025-03-18 11:41:48,051 - betting.betting_system - INFO - Recommending bet of 2,000 Rp using fibonacci strategy with unknown pattern modifier: 0.95x
+2025-03-18 11:41:49,681 - betting.betting_system - INFO - Placed bet of 2,000 Rp, Balance before: 10,600.0 Rp, after: 8,600.0 Rp
+2025-03-18 11:41:49,682 - betting.betting_system - INFO - Slow bet decision processing: 1630.39ms
+2025-03-18 11:41:49,682 - betting.betting_system - INFO - Recommending bet of 2,000 Rp using fibonacci strategy with unknown pattern modifier: 0.95x
+2025-03-18 11:41:50,189 - betting.betting_system - INFO - Placed bet of 2,000 Rp, Balance before: 8,600.0 Rp, after: 6,600.0 Rp
+2025-03-18 11:41:50,190 - betting.betting_system - INFO - Slow bet decision processing: 508.14ms
+2025-03-18 11:41:52,156 - betting.betting_system - INFO - Resolving bet - Amount: 2,000 Rp, Predicted: 0, Actual: 1
+2025-03-18 11:41:59,499 - prediction.utils.diagnostics - ERROR - Prediction error in stage 'base_prediction': 'NoneType' object has no attribute 'get_active_base_models'
+Traceback: Traceback (most recent call last):
+  File "C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2\prediction\prediction_pipeline.py", line 122, in predict_with_profiling
+    base_predictions = self._collect_base_predictions(normalized_input)
+  File "C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2\prediction\prediction_pipeline.py", line 318, in _collect_base_predictions
+    active_models = self.model_registry.get_active_base_models()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get_active_base_models'
+
+2025-03-18 11:41:59,503 - betting.betting_system - INFO - Recommending bet of 2,000 Rp using fibonacci strategy with unknown pattern modifier: 0.95x
+2025-03-18 11:42:00,453 - betting.betting_system - INFO - Placed bet of 2,000 Rp, Balance before: 6,600.0 Rp, after: 4,600.0 Rp
+2025-03-18 11:42:00,454 - betting.betting_system - INFO - Slow bet decision processing: 950.81ms
+2025-03-18 11:42:00,455 - betting.betting_system - INFO - Recommending bet of 2,000 Rp using fibonacci strategy with unknown pattern modifier: 0.95x
+2025-03-18 11:42:01,458 - betting.betting_system - INFO - Placed bet of 2,000 Rp, Balance before: 4,600.0 Rp, after: 2,600.0 Rp
+2025-03-18 11:42:01,461 - betting.betting_system - INFO - Slow bet decision processing: 1005.99ms
+2025-03-18 11:42:03,416 - betting.betting_system - INFO - Resolving bet - Amount: 2,000 Rp, Predicted: 0, Actual: 0
+2025-03-18 11:42:12,459 - prediction.utils.diagnostics - ERROR - Prediction error in stage 'base_prediction': 'NoneType' object has no attribute 'get_active_base_models'
+Traceback: Traceback (most recent call last):
+  File "C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2\prediction\prediction_pipeline.py", line 122, in predict_with_profiling
+    base_predictions = self._collect_base_predictions(normalized_input)
+  File "C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2\prediction\prediction_pipeline.py", line 318, in _collect_base_predictions
+    active_models = self.model_registry.get_active_base_models()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get_active_base_models'
+
+2025-03-18 11:42:12,464 - betting.betting_system - INFO - Recommending bet of 2,000 Rp using fibonacci strategy with unknown pattern modifier: 0.95x
+2025-03-18 11:42:13,192 - betting.betting_system - INFO - Placed bet of 2,000 Rp, Balance before: 6,500.0 Rp, after: 4,500.0 Rp
+2025-03-18 11:42:13,193 - betting.betting_system - INFO - Slow bet decision processing: 729.07ms
+2025-03-18 11:42:13,193 - betting.betting_system - INFO - Recommending bet of 2,000 Rp using fibonacci strategy with unknown pattern modifier: 0.95x
+2025-03-18 11:42:13,893 - betting.betting_system - INFO - Placed bet of 2,000 Rp, Balance before: 4,500.0 Rp, after: 2,500.0 Rp
+2025-03-18 11:42:13,894 - betting.betting_system - INFO - Slow bet decision processing: 700.94ms
+2025-03-18 11:42:14,714 - betting.betting_system - INFO - Resolving bet - Amount: 2,000 Rp, Predicted: 0, Actual: 0
+2025-03-18 11:42:50,870 - betting.betting_system - INFO - System fully reset to default settings
+2025-03-18 11:42:55,838 - main - ERROR - Error in system settings: 'SystemManager' object has no attribute '_reinitialize_model_registry'
+2025-03-18 11:43:12,969 - main - ERROR - Error in system settings: 'SystemManager' object has no attribute '_reset_stacking_ensemble'
+2025-03-18 11:43:55,992 - prediction.utils.diagnostics - ERROR - Prediction error in stage 'base_prediction': 'NoneType' object has no attribute 'get_active_base_models'
+Traceback: Traceback (most recent call last):
+  File "C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2\prediction\prediction_pipeline.py", line 122, in predict_with_profiling
+    base_predictions = self._collect_base_predictions(normalized_input)
+  File "C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2\prediction\prediction_pipeline.py", line 318, in _collect_base_predictions
+    active_models = self.model_registry.get_active_base_models()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get_active_base_models'
+
+2025-03-18 11:44:04,803 - prediction.utils.diagnostics - ERROR - Prediction error in stage 'base_prediction': 'NoneType' object has no attribute 'get_active_base_models'
+Traceback: Traceback (most recent call last):
+  File "C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2\prediction\prediction_pipeline.py", line 122, in predict_with_profiling
+    base_predictions = self._collect_base_predictions(normalized_input)
+  File "C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2\prediction\prediction_pipeline.py", line 318, in _collect_base_predictions
+    active_models = self.model_registry.get_active_base_models()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get_active_base_models'
+
+2025-03-18 11:59:08,656 - prediction.registry_adapter - INFO - Registry adapter initialized with registry: True
+2025-03-18 11:59:18,293 - prediction.registry_adapter - INFO - Registry adapter initialized with registry: True
+2025-03-18 11:59:39,492 - prediction.registry_adapter - INFO - Registry adapter initialized with registry: True
+2025-03-18 12:00:18,311 - main - WARNING - Slow prediction detected: 266.56ms
+2025-03-18 12:00:18,311 - main - WARNING - Slowest stage: base_prediction (171.40ms)
+2025-03-18 12:00:33,939 - prediction.registry_adapter - INFO - Registry adapter initialized with registry: True
+2025-03-18 12:15:21,532 - prediction.registry_adapter - INFO - Registry adapter initialized with registry: True
+2025-03-18 12:15:24,432 - prediction.registry_adapter - INFO - Registry adapter initialized with registry: True
+2025-03-18 12:15:25,785 - prediction.registry_adapter - INFO - Registry adapter initialized with registry: True
+2025-03-18 12:16:06,924 - main - WARNING - Slow prediction detected: 200.58ms
+2025-03-18 12:16:06,924 - main - WARNING - Slowest stage: base_prediction (200.31ms)
+2025-03-18 12:16:12,909 - interface.io_predict - INFO - Model update performance: 422.31ms, 6 models updated
+2025-03-18 12:16:20,230 - main - WARNING - Slow prediction detected: 384.93ms
+2025-03-18 12:16:20,231 - main - WARNING - Slowest stage: base_prediction (252.12ms)
+2025-03-18 12:16:50,803 - main - WARNING - Slow prediction detected: 296.84ms
+2025-03-18 12:16:50,803 - main - WARNING - Slowest stage: base_prediction (296.44ms)
+2025-03-18 12:19:43,516 - prediction.registry_adapter - INFO - Registry adapter initialized with registry: True
+2025-03-18 12:19:43,607 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:19:43,630 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:19:43,654 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_aggressive: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:19:43,682 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:19:43,708 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:19:56,976 - main - INFO - Python version: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-03-18 12:19:56,976 - main - INFO - Working directory: C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2
+2025-03-18 12:19:56,976 - main - INFO - Component initialization order: ['directories', 'registry', 'base_models', 'stacking', 'pipeline', 'calibration', 'betting']
+2025-03-18 12:19:57,239 - prediction.registry_adapter - INFO - Registry adapter initialized with registry: True
+2025-03-18 12:19:57,327 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:19:57,355 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:19:57,382 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_aggressive: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:19:57,409 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:19:57,435 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:19:57,444 - main - INFO - System initialization completed in 0.47 seconds
+2025-03-18 12:19:57,444 - main - INFO - Initialization status: Failed
+2025-03-18 12:21:34,331 - main - INFO - Python version: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-03-18 12:21:34,332 - main - INFO - Working directory: C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2
+2025-03-18 12:21:34,332 - main - INFO - Component initialization order: ['directories', 'registry', 'base_models', 'stacking', 'pipeline', 'calibration', 'betting']
+2025-03-18 12:21:34,609 - prediction.registry_adapter - INFO - Registry adapter initialized with registry: True
+2025-03-18 12:21:34,698 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:21:34,725 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:21:34,752 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_aggressive: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:21:34,779 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:21:34,806 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:21:34,814 - main - INFO - System initialization completed in 0.48 seconds
+2025-03-18 12:21:34,814 - main - INFO - Initialization status: Failed
+2025-03-18 12:26:40,955 - main - INFO - Python version: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-03-18 12:26:40,955 - main - INFO - Working directory: C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2
+2025-03-18 12:26:40,956 - main - INFO - Component initialization order: ['directories', 'registry', 'base_models', 'stacking', 'pipeline', 'calibration', 'betting']
+2025-03-18 12:26:41,161 - prediction.registry_adapter - INFO - Registry adapter initialized with registry: True
+2025-03-18 12:26:41,249 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:26:41,277 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:26:41,304 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_aggressive: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:26:41,331 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:26:41,357 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:26:41,363 - main - INFO - System initialization completed in 0.41 seconds
+2025-03-18 12:26:41,364 - main - INFO - Initialization status: Failed
+2025-03-18 12:28:19,031 - main - INFO - Python version: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-03-18 12:28:19,031 - main - INFO - Working directory: C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2
+2025-03-18 12:28:19,031 - main - INFO - Component initialization order: ['directories', 'registry', 'base_models', 'stacking', 'pipeline', 'calibration', 'betting']
+2025-03-18 12:28:19,284 - prediction.registry_adapter - INFO - Registry adapter initialized with registry: True
+2025-03-18 12:28:19,369 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:28:19,396 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:28:19,425 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_aggressive: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:28:19,452 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:28:19,478 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:28:19,485 - main - INFO - System initialization completed in 0.45 seconds
+2025-03-18 12:28:19,485 - main - INFO - Initialization status: Failed
+2025-03-18 12:28:27,483 - main - INFO - Python version: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-03-18 12:28:27,483 - main - INFO - Working directory: C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2
+2025-03-18 12:28:27,483 - main - INFO - Component initialization order: ['directories', 'registry', 'base_models', 'stacking', 'pipeline', 'calibration', 'betting']
+2025-03-18 12:28:27,748 - prediction.registry_adapter - INFO - Registry adapter initialized with registry: True
+2025-03-18 12:28:27,833 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:28:27,860 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:28:27,886 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_aggressive: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:28:27,912 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:28:27,938 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:28:27,944 - main - INFO - System initialization completed in 0.46 seconds
+2025-03-18 12:28:27,944 - main - INFO - Initialization status: Failed
+2025-03-18 12:29:44,841 - main - INFO - Python version: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-03-18 12:29:44,841 - main - INFO - Working directory: C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2
+2025-03-18 12:29:44,842 - main - INFO - Component initialization order: ['directories', 'registry', 'base_models', 'stacking', 'pipeline', 'calibration', 'betting']
+2025-03-18 12:29:45,018 - prediction.registry_adapter - INFO - Registry adapter initialized with registry: True
+2025-03-18 12:29:45,104 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:29:45,131 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:29:45,159 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_aggressive: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:29:45,187 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:29:45,213 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:29:45,219 - main - INFO - System initialization completed in 0.38 seconds
+2025-03-18 12:29:45,220 - main - INFO - Initialization status: Failed
+2025-03-18 12:29:53,301 - main - INFO - Python version: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-03-18 12:29:53,301 - main - INFO - Working directory: C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2
+2025-03-18 12:29:53,302 - main - INFO - Component initialization order: ['directories', 'registry', 'base_models', 'stacking', 'pipeline', 'calibration', 'betting']
+2025-03-18 12:29:53,538 - prediction.registry_adapter - INFO - Registry adapter initialized with registry: True
+2025-03-18 12:29:53,623 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:29:53,650 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:29:53,676 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_aggressive: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:29:53,702 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:29:53,728 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:29:53,734 - main - INFO - System initialization completed in 0.43 seconds
+2025-03-18 12:29:53,735 - main - INFO - Initialization status: Failed
+2025-03-18 12:30:34,200 - main - INFO - Python version: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-03-18 12:30:34,200 - main - INFO - Working directory: C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2
+2025-03-18 12:30:34,201 - main - INFO - Component initialization order: ['directories', 'registry', 'base_models', 'stacking', 'pipeline', 'calibration', 'betting']
+2025-03-18 12:30:34,480 - prediction.registry_adapter - INFO - Registry adapter initialized with registry: True
+2025-03-18 12:30:34,578 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:30:34,610 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:30:34,641 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_aggressive: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:30:34,673 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:30:34,704 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:30:34,713 - main - INFO - System initialization completed in 0.51 seconds
+2025-03-18 12:30:34,713 - main - INFO - Initialization status: Failed
+2025-03-18 12:32:23,813 - main - INFO - Python version: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-03-18 12:32:23,814 - main - INFO - Working directory: C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2
+2025-03-18 12:32:23,814 - main - INFO - Component initialization order: ['directories', 'registry', 'base_models', 'stacking', 'pipeline', 'calibration', 'betting']
+2025-03-18 12:32:24,063 - prediction.registry_adapter - INFO - Registry adapter initialized with registry: True
+2025-03-18 12:32:24,167 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:32:24,195 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:32:24,241 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_aggressive: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:32:24,275 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:32:24,314 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:32:24,321 - main - INFO - System initialization completed in 0.51 seconds
+2025-03-18 12:32:24,321 - main - INFO - Initialization status: Failed
+2025-03-18 12:39:49,380 - main - INFO - Python version: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-03-18 12:39:49,380 - main - INFO - Working directory: C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2
+2025-03-18 12:39:49,380 - main - INFO - Component initialization order: ['directories', 'registry', 'base_models', 'stacking', 'pipeline', 'calibration', 'betting']
+2025-03-18 12:39:49,602 - prediction.registry_adapter - INFO - Registry adapter initialized with registry: True
+2025-03-18 12:39:49,698 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:39:49,727 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:39:49,760 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_aggressive: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:39:49,790 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:39:49,818 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:39:49,827 - main - INFO - System initialization completed in 0.45 seconds
+2025-03-18 12:39:49,827 - main - INFO - Initialization status: Failed
+2025-03-18 12:41:54,563 - main - INFO - Python version: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-03-18 12:41:54,563 - main - INFO - Working directory: C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2
+2025-03-18 12:41:54,564 - main - INFO - Component initialization order: ['directories', 'registry', 'base_models', 'stacking', 'pipeline', 'calibration', 'betting']
+2025-03-18 12:41:54,875 - prediction.registry_adapter - INFO - Registry adapter initialized with registry: True
+2025-03-18 12:41:54,977 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:41:55,007 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:41:55,042 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_aggressive: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:41:55,077 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:41:55,109 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-18 12:41:55,118 - main - INFO - System initialization completed in 0.55 seconds
+2025-03-18 12:41:55,118 - main - INFO - Initialization status: Failed
+2025-03-18 17:06:51,851 - main - INFO - Python version: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-03-18 17:06:51,851 - main - INFO - Working directory: C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2
+2025-03-18 17:06:51,852 - main - INFO - Component initialization order: ['directories', 'registry', 'base_models', 'stacking', 'pipeline', 'calibration', 'betting']
+2025-03-18 17:06:52,271 - prediction.registry_adapter - INFO - Registry adapter initialized with registry: True
+2025-03-18 17:06:52,379 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base: only length-1 arrays can be converted to Python scalars
+2025-03-18 17:06:52,411 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative: only length-1 arrays can be converted to Python scalars
+2025-03-18 17:06:52,441 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_aggressive: only length-1 arrays can be converted to Python scalars
+2025-03-18 17:06:52,484 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-18 17:06:52,527 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-18 17:06:52,533 - main - INFO - System initialization completed in 0.68 seconds
+2025-03-18 17:06:52,533 - main - INFO - Initialization status: Failed
+2025-03-18 17:18:06,333 - main - INFO - Python version: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-03-18 17:18:06,333 - main - INFO - Working directory: C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2
+2025-03-18 17:18:06,333 - main - INFO - Component initialization order: ['directories', 'registry', 'base_models', 'stacking', 'pipeline', 'calibration', 'betting']
+2025-03-18 17:18:06,889 - prediction.registry_adapter - INFO - Registry adapter initialized with registry: True
+2025-03-18 17:18:07,003 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base: only length-1 arrays can be converted to Python scalars
+2025-03-18 17:18:07,040 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative: only length-1 arrays can be converted to Python scalars
+2025-03-18 17:18:07,077 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_aggressive: only length-1 arrays can be converted to Python scalars
+2025-03-18 17:18:07,116 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-18 17:18:07,157 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-18 17:18:07,176 - main - INFO - System initialization completed in 0.84 seconds
+2025-03-18 17:18:07,176 - main - INFO - Initialization status: Failed
+2025-03-18 17:30:45,133 - main - INFO - Python version: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-03-18 17:30:45,133 - main - INFO - Working directory: C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2
+2025-03-18 17:30:45,133 - main - INFO - Component initialization order: ['directories', 'registry', 'base_models', 'stacking', 'pipeline', 'calibration', 'betting']
+2025-03-18 17:30:45,855 - prediction.registry_adapter - INFO - Registry adapter initialized with registry: True
+2025-03-18 17:30:45,972 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base: only length-1 arrays can be converted to Python scalars
+2025-03-18 17:30:46,009 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative: only length-1 arrays can be converted to Python scalars
+2025-03-18 17:30:46,048 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_aggressive: only length-1 arrays can be converted to Python scalars
+2025-03-18 17:30:46,086 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-18 17:30:46,126 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-18 17:30:46,140 - main - INFO - System initialization completed in 1.01 seconds
+2025-03-18 17:30:46,141 - main - INFO - Initialization status: Failed
+2025-03-18 17:37:31,172 - main - INFO - Python version: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-03-18 17:37:31,172 - main - INFO - Working directory: C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2
+2025-03-18 17:37:31,173 - main - INFO - Component initialization order: ['directories', 'registry', 'base_models', 'stacking', 'pipeline', 'calibration', 'betting']
+2025-03-18 17:37:31,707 - prediction.registry_adapter - INFO - Registry adapter initialized with registry: True
+2025-03-18 17:37:31,814 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base: only length-1 arrays can be converted to Python scalars
+2025-03-18 17:37:31,851 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative: only length-1 arrays can be converted to Python scalars
+2025-03-18 17:37:31,890 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_aggressive: only length-1 arrays can be converted to Python scalars
+2025-03-18 17:37:31,926 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-18 17:37:31,963 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-18 17:37:31,980 - main - INFO - System initialization completed in 0.81 seconds
+2025-03-18 17:37:31,981 - main - INFO - Initialization status: Failed
+2025-03-18 17:40:17,748 - main - INFO - Python version: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-03-18 17:40:17,748 - main - INFO - Working directory: C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2
+2025-03-18 17:40:17,749 - main - INFO - Component initialization order: ['directories', 'registry', 'base_models', 'stacking', 'pipeline', 'calibration', 'betting']
+2025-03-18 17:40:18,071 - prediction.registry_adapter - INFO - Registry adapter initialized with registry: True
+2025-03-18 17:40:18,195 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base: only length-1 arrays can be converted to Python scalars
+2025-03-18 17:40:18,246 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative: only length-1 arrays can be converted to Python scalars
+2025-03-18 17:40:18,301 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_aggressive: only length-1 arrays can be converted to Python scalars
+2025-03-18 17:40:18,380 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-18 17:40:18,428 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-18 17:40:18,456 - main - INFO - System initialization completed in 0.71 seconds
+2025-03-18 17:40:18,456 - main - INFO - Initialization status: Failed
+2025-03-18 18:14:20,864 - main - INFO - Python version: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-03-18 18:14:20,865 - main - INFO - Working directory: C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2
+2025-03-18 18:14:20,866 - main - INFO - Component initialization order: ['directories', 'registry', 'base_models', 'stacking', 'pipeline', 'calibration', 'betting']
+2025-03-18 18:14:21,430 - prediction.registry_adapter - INFO - Registry adapter initialized with registry: True
+2025-03-18 18:14:21,574 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base: only length-1 arrays can be converted to Python scalars
+2025-03-18 18:14:21,619 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative: only length-1 arrays can be converted to Python scalars
+2025-03-18 18:14:21,662 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_aggressive: only length-1 arrays can be converted to Python scalars
+2025-03-18 18:14:21,712 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-18 18:14:21,762 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-18 18:14:21,767 - main - INFO - System initialization completed in 0.90 seconds
+2025-03-18 18:14:21,767 - main - INFO - Initialization status: Failed
+2025-03-18 18:40:41,879 - main - INFO - Python version: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-03-18 18:40:41,879 - main - INFO - Working directory: C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2
+2025-03-18 18:40:41,880 - main - INFO - Component initialization order: ['directories', 'registry', 'base_models', 'stacking', 'pipeline', 'calibration', 'betting']
+2025-03-18 18:40:42,321 - prediction.registry_adapter - INFO - Registry adapter initialized with registry: True
+2025-03-18 18:40:42,452 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base: only length-1 arrays can be converted to Python scalars
+2025-03-18 18:40:42,506 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative: only length-1 arrays can be converted to Python scalars
+2025-03-18 18:40:42,550 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_aggressive: only length-1 arrays can be converted to Python scalars
+2025-03-18 18:40:42,606 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-18 18:40:42,662 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-18 18:40:42,673 - main - INFO - System initialization completed in 0.79 seconds
+2025-03-18 18:40:42,673 - main - INFO - Initialization status: Failed
+2025-03-19 00:46:19,123 - main - INFO - Python version: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-03-19 00:46:19,123 - main - INFO - Working directory: C:\Users\user\Documents\Misc\Code\Baccarat_Prediction_2
+2025-03-19 00:46:19,123 - main - INFO - Component initialization order: ['directories', 'registry', 'base_models', 'stacking', 'pipeline', 'calibration', 'betting']
+2025-03-19 00:46:19,627 - prediction.registry_adapter - INFO - Registry adapter initialized with registry: True
+2025-03-19 00:46:19,743 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base: only length-1 arrays can be converted to Python scalars
+2025-03-19 00:46:19,775 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative: only length-1 arrays can be converted to Python scalars
+2025-03-19 00:46:19,814 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_aggressive: only length-1 arrays can be converted to Python scalars
+2025-03-19 00:46:19,842 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgboost_base_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-19 00:46:19,870 - prediction.prediction_pipeline - WARNING - Error getting prediction from xgb_conservative_variant_1742237091_0: only length-1 arrays can be converted to Python scalars
+2025-03-19 00:46:19,875 - main - INFO - System initialization completed in 0.75 seconds
+2025-03-19 00:46:19,875 - main - INFO - Initialization status: Failed
